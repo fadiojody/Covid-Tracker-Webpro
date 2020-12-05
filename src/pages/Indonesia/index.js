@@ -5,6 +5,7 @@ const Indonesia = () => {
     return (
         <div>
             <h1>Indonesia Cases</h1>
+          
         </div>
     )
 }

@@ -25,18 +25,18 @@ return (
   <div className="container">
   
   <h1 className="card1">
-  <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
   <p>Positive</p>
+  <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
   </h1>
   
       <h1 className="card2">
-      <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
       <p>Deaths</p>
+      <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
       </h1>
 
           <h1 className="card3">
-          <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
           <p>Recovered</p>
+          <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
           </h1>
       
   </div>

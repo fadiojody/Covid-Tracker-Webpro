@@ -1,64 +1,52 @@
-/* .header-container {
-  margin: 15px;
-  background-color: yellow;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
-}
-.card-container {
-  margin: 10px;
-  padding: 10px;
+.card1{
+  font-size: 20px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 2px;
+  padding: 12px;
   border-radius: 10px;
-  border-width: 3px;
-  border-color: black;
-  border-style: solid;
-} */
-
-/* body {
-  background: #c0ffee;
-}
-.App{
-  margin: 1em;
-  font-family: "Avenir", "Arial", sans-serif;
-}
-.list {
-  list-style:none;
-}
-.list-item {
-  padding:1em;
-  display: flex;
-  flex: 1;
-  align-items: center;
-  border: 0.25cm solid #cacaca;
-  margin-bottom: 1cm;
-}
-.list-item-image-container{
-  flex: 1;
-}
-.list-item-image-container > img{
-  height: 4cm;
-}
-.list-item-name {
-  flex: 3;
-}
-.list-item-power {
-  font-weight: bolder;
-  color: #ff0000;
-} */
-
-.header-container {
-  margin: 15px;
-  background-color: yellow;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
-}
-.card-container {
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  border-width: 3px;
+  border-width: px;
   border-color: black;
   border-style: solid;
   font-weight: bold;
+  background-color:rgb(247, 177, 47);
 }
+
+.card2{
+  font-size:20px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 2px;
+  padding: 12px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color:rgb(248, 36, 36);
+}
+
+.card3{
+  font-size:20px  ;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  margin: 2px;
+  padding: 12px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color:rgb(43, 128, 4);
+}
+
+.container{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  }
+
+  
