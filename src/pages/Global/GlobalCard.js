@@ -11,7 +11,7 @@ export default function GlobalCard(){
       axios
       .get("https://covid19.mathdro.id/api")
       .then(response => {
-        console.log(response)
+
         setTotalConfirmed(response.data.confirmed.value)
         setTotalDeaths(response.data.deaths.value)
         setTotalRecovered(response.data.recovered.value)

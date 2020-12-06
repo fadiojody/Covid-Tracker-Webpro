@@ -3,22 +3,20 @@ import axios from 'axios';
 import NumberFormat from "react-number-format";
 
 export default function IndonesiaCard(){
-  const [confirmed, setTotalConfirmed] = useState("");
-  const [recovered, setTotalRecovered] = useState("");
-  const [deaths, setTotalDeaths] = useState("");
-  
+  const [confirmed, setConfirmed] = useState("");
+  const [deaths, setDeaths] = useState("");
+  const [recovered, setRecovered] = useState("");
+   
     useEffect(() => {
       axios
       .get("https://indonesia-covid-19.mathdro.id/api")
       .then(response => {
-        console.log(response)
-        setTotalConfirmed(response.data.confirmed)
-        setTotalDeaths(response.data.deaths)
-        setTotalRecovered(response.data.recovered)
+        setConfirmed(response.data.perawatan)
+        setDeaths(response.data.meninggal)
+        setRecovered(response.data.sembuh)
         
-        
-        })
-     
+      })
+
     }, []);
 
 return (
