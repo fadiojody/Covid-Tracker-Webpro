@@ -3,10 +3,13 @@ import './App.css'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import { Global, Indonesia, Province } from './pages'
 
+
+
 const App = () => {
   return(
-    <Router>
-      <div>
+
+   <Router>
+      <div className = "background">
         <h1>Covid-19 Tracker</h1>
         <nav>
           <table>
@@ -29,7 +32,7 @@ const App = () => {
             </ul>
           </table>
         </nav>
-      </div>
+      
       <Switch>
         <Route path="/Global">
           <Global />
@@ -41,8 +44,13 @@ const App = () => {
           <Province />
         </Route>
       </Switch>
+      </div>
     </Router>
+
+    
+
   )
+
 }
 
 export default App;
