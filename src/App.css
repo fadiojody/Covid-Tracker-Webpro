@@ -4,14 +4,26 @@
   font-weight: bold;
 }
 
+tr {
+  color: rgba(10, 3, 3, 0.788);
+  background-color:rgb(214, 218, 241);
+}
+
 .IndonesiaText{
   text-align: center;
   font-weight: bold;
 }
 
+.ProvinceText{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
 .background{
-  width: 1500px;
-  height: 900px;
+  width: 1350px;
+  height: 1350px;
   background-size: cover;
   background-position: center;
   background-image: url("https://www.volkswagenstiftung.de/sites/default/files/images/20200504_Corona_Small_Grants_AdobeStock_334534811.jpg");
