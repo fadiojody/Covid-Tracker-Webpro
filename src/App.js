@@ -11,8 +11,10 @@ const App = () => {
    <Router>
       <div className = "background">
         <center>
-          <h1>Covid-19 Tracker</h1> 
+          
+          <h1>Covid-19 Tracker</h1>
             <ul>
+            <nav>
               <li>
                 <Link to="/Global">
                   Global Cases
@@ -28,7 +30,9 @@ const App = () => {
                   Indonesia Province Cases
                 </Link>
               </li>
+              </nav>
             </ul>
+          
             </center>
         
       <Switch>
@@ -44,9 +48,6 @@ const App = () => {
       </Switch>
       </div>
     </Router>
-
-
-    
 
   )
 
