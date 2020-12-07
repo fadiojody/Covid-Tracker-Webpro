@@ -3,7 +3,7 @@ import IndonesiaCard from './IndonesiaCard.js';
 
 const Indonesia = () => {
     return (
-        <div>
+        <div className = "IndonesiaText">
             <h1>Indonesia Cases</h1>
           <IndonesiaCard />
         </div>

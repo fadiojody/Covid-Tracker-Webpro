@@ -1,9 +1,20 @@
+.Worldwide{
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.IndonesiaText{
+  text-align: center;
+  font-weight: bold;
+}
+
 .background{
-  width: 1650px;
-  height: 1000px;
+  width: 1500px;
+  height: 900px;
   background-size: cover;
   background-position: center;
-  background-image: url("https://www.balipost.com/wp-content/uploads/2020/03/balipostcom_waspadai-efek-bola-salju-corona_01.jpeg");
+  background-image: url("https://www.volkswagenstiftung.de/sites/default/files/images/20200504_Corona_Small_Grants_AdobeStock_334534811.jpg");
 }
 
 .cardPositive{
@@ -53,8 +64,8 @@
 
 .container{
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
   }
 
   

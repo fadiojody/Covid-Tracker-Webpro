@@ -3,7 +3,7 @@ import GlobalCard from './GlobalCard.js';
 
 const Global = () =>{
     return(
-        <div>
+        <div className = "Worldwide">
             <p>Worldwide Cases</p>
             <GlobalCard />
        </div>
