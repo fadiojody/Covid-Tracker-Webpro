@@ -19,14 +19,13 @@ export default function ProvinceCard(){
 return (
 
  <center>
-<table border = "5">
+<table border = "5"  className="ProvinceTable">
                 <tr>
                     <th><center>No.</center></th>
                     <th><center>Provinsi</center></th>
                     <th><center>Positif</center></th>
                     <th><center>Sembuh</center></th>
                     <th><center>Meninggal</center></th>
-         
                 </tr>
                  {DataProvince.map((item, index) => {
                   return(
