@@ -10,9 +10,8 @@ const App = () => {
 
    <Router>
       <div className = "background">
-        <h1>Covid-19 Tracker</h1>
-        <nav>
-          <table>
+        <center>
+          <h1>Covid-19 Tracker</h1> 
             <ul>
               <li>
                 <Link to="/Global">
@@ -30,9 +29,8 @@ const App = () => {
                 </Link>
               </li>
             </ul>
-          </table>
-        </nav>
-      
+            </center>
+        
       <Switch>
         <Route path="/Global">
           <Global />
@@ -47,10 +45,11 @@ const App = () => {
       </div>
     </Router>
 
+
     
 
   )
 
 }
 
-export default App;
+export default App
