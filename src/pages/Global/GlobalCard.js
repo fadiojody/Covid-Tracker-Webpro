@@ -15,8 +15,6 @@ export default function GlobalCard(){
         setTotalConfirmed(response.data.confirmed.value)
         setTotalDeaths(response.data.deaths.value)
         setTotalRecovered(response.data.recovered.value)
-        
-        
       })
      
     }, []);
